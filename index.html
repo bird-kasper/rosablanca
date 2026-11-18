@@ -1,0 +1,3045 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ============ SEO / META ============ -->
+<title>Rosa Blanca — Florist &amp; Gift Shop in Suburbs, Bulawayo</title>
+<meta name="description" content="Rosa Blanca is a florist and gift shop in Suburbs, Bulawayo. Fresh flower bouquets from $20, money bouquets, bridal bouquets, vases, and flower delivery across Zimbabwe and internationally. Order on WhatsApp.">
+<link rel="canonical" href="https://rosablancazw.co.zw/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Rosa Blanca">
+<meta property="og:title" content="Rosa Blanca — Florist &amp; Gift Shop in Suburbs, Bulawayo">
+<meta property="og:description" content="Blooming elegance for every occasion. Fresh flowers, gifts and delivery across Zimbabwe and internationally.">
+<meta property="og:url" content="https://rosablancazw.co.zw/">
+<meta property="og:image" content="fav.png">
+<meta property="og:image:alt" content="Rosa Blanca">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rosa Blanca — Florist &amp; Gift Shop in Bulawayo">
+<meta name="twitter:description" content="Blooming elegance for every occasion. Fresh flowers, gifts and delivery across Zimbabwe and internationally.">
+<meta name="twitter:image" content="fav.png">
+
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0c0c0c" media="(prefers-color-scheme: dark)">
+
+<link rel="icon" type="image/png" href="fav.png">
+<link rel="apple-touch-icon" href="fav.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap">
+
+<!-- JSON-LD LOCAL BUSINESS -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Florist",
+  "name": "Rosa Blanca",
+  "description": "Florist and gift shop in Suburbs, Bulawayo, Zimbabwe. Fresh flower bouquets, gifts, and delivery across Zimbabwe and internationally.",
+  "url": "https://rosablancazw.co.zw/",
+  "telephone": "+263779159870",
+  "email": "rosablancazw@gmail.com",
+  "image": "fav.png",
+  "logo": "logo.jpg",
+  "priceRange": "$8 - $315",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "7A Seventh Street, Suburbs",
+    "addressLocality": "Bulawayo",
+    "addressCountry": "ZW",
+    "postalCode": "0000"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "08:00",
+      "closes": "17:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/p/Rosa-Blanca-ZW-61566713379864/",
+    "https://www.instagram.com/rosablanca_zw/?hl=en",
+    "https://www.tiktok.com/@rosablanca.zw"
+  ]
+}
+</script>
+
+<script>document.documentElement.classList.add('js');</script>
+
+<style>
+/* ============================================================
+   1. DESIGN TOKENS
+   ============================================================ */
+:root{
+  --paper:#ffffff;
+  --surface:#faf8f5;
+  --surface-2:#f2eee8;
+  --ink:#0d0d0d;
+  --ink-2:#3a3a3a;
+  --muted:#6f6b66;
+  --line:rgba(13,13,13,.14);
+  --line-soft:rgba(13,13,13,.08);
+  --line-strong:rgba(13,13,13,.28);
+  --accent:#0d0d0d;
+  --accent-ink:#ffffff;
+  --error:#b3352b;
+  --footer-bg:#f3ecea;
+  --header-bg:rgba(255,255,255,.78);
+
+  /* ===== Third colour — muted rose, a major part of the palette ===== */
+  --rose:#75585A;
+  --rose-ink:#ffffff;
+  --rose-soft:rgba(117,88,90,.11);
+  --rose-wash:rgba(117,88,90,.055);
+  --rose-line:rgba(117,88,90,.32);
+  --rose-glow:rgba(117,88,90,.38);
+
+  /* Marquee band */
+  --band-bg:#75585A;
+  --band-ink:rgba(255,255,255,.92);
+  --band-dot:rgba(255,255,255,.5);
+
+  /* Hero scrim (light) */
+  --hero-scrim:linear-gradient(90deg, rgba(255,255,255,.97) 0%, rgba(255,255,255,.88) 34%, rgba(255,255,255,.52) 66%, rgba(255,255,255,.18) 100%);
+
+  --shadow-sm:0 1px 2px rgba(13,13,13,.05), 0 8px 20px -12px rgba(13,13,13,.20);
+  --shadow-md:0 2px 6px rgba(13,13,13,.05), 0 22px 48px -24px rgba(13,13,13,.30);
+  --shadow-rose:0 22px 46px -26px rgba(117,88,90,.55);
+
+  --radius:18px;
+  --radius-sm:12px;
+  --max:1200px;
+  --header-h:74px;
+
+  --ease:cubic-bezier(.22,1,.36,1);
+  --font-display:"Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-body:"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 899px){
+  :root{
+    --hero-scrim:linear-gradient(180deg, rgba(255,255,255,.97) 0%, rgba(255,255,255,.92) 55%, rgba(255,255,255,.72) 100%);
+  }
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#0c0c0c;
+    --surface:#121212;
+    --surface-2:#1a1918;
+    --ink:#f6f4f1;
+    --ink-2:#dedad4;
+    --muted:#a29d96;
+    --line:rgba(255,255,255,.16);
+    --line-soft:rgba(255,255,255,.09);
+    --line-strong:rgba(255,255,255,.34);
+    --accent:#f6f4f1;
+    --accent-ink:#0c0c0c;
+    --error:#ff9a8c;
+    --footer-bg:#100d0e;
+    --header-bg:rgba(12,12,12,.74);
+
+    /* Lighter rose so contrast stays strong on dark */
+    --rose:#C7A3A6;
+    --rose-ink:#0c0c0c;
+    --rose-soft:rgba(199,163,166,.14);
+    --rose-wash:rgba(199,163,166,.065);
+    --rose-line:rgba(199,163,166,.32);
+    --rose-glow:rgba(199,163,166,.30);
+
+    --band-bg:#171213;
+    --band-ink:rgba(199,163,166,.86);
+    --band-dot:rgba(199,163,166,.45);
+
+    --hero-scrim:linear-gradient(90deg, rgba(12,12,12,.97) 0%, rgba(12,12,12,.88) 34%, rgba(12,12,12,.52) 66%, rgba(12,12,12,.18) 100%);
+
+    --shadow-sm:0 1px 2px rgba(0,0,0,.6), 0 8px 20px -12px rgba(0,0,0,.8);
+    --shadow-md:0 2px 6px rgba(0,0,0,.6), 0 22px 48px -24px rgba(0,0,0,.9);
+    --shadow-rose:0 22px 46px -26px rgba(199,163,166,.28);
+  }
+  @media (max-width: 899px){
+    :root{
+      --hero-scrim:linear-gradient(180deg, rgba(12,12,12,.97) 0%, rgba(12,12,12,.92) 55%, rgba(12,12,12,.72) 100%);
+    }
+  }
+}
+
+/* ============================================================
+   2. RESET & BASE
+   ============================================================ */
+*,*::before,*::after{box-sizing:border-box;}
+
+html{
+  scroll-behavior:smooth;
+  scroll-padding-top:calc(var(--header-h) + 16px);
+  -webkit-text-size-adjust:100%;
+}
+
+html,body{max-width:100%;overflow-x:hidden;}
+
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--font-body);
+  font-size:1rem;
+  line-height:1.68;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+img,svg{display:block;max-width:100%;}
+img{height:auto;}
+
+h1,h2,h3,h4{
+  font-family:var(--font-display);
+  font-weight:400;
+  line-height:1.08;
+  letter-spacing:-.01em;
+  margin:0;
+  color:var(--ink);
+}
+
+h1{font-size:clamp(2.6rem,7.5vw,5rem);}
+h2{font-size:clamp(2rem,4.6vw,3.3rem);}
+h3{font-size:clamp(1.25rem,2.4vw,1.5rem);line-height:1.25;}
+
+p{margin:0;}
+
+a{color:inherit;text-decoration:none;}
+
+button{font:inherit;color:inherit;}
+
+:focus-visible{
+  outline:2px solid var(--rose);
+  outline-offset:3px;
+  border-radius:6px;
+}
+
+::selection{background:var(--rose);color:var(--rose-ink);}
+
+.skip-link{
+  position:absolute;
+  left:16px;top:-100px;
+  z-index:300;
+  background:var(--ink);
+  color:var(--accent-ink);
+  padding:12px 20px;
+  border-radius:999px;
+  font-size:.85rem;
+  transition:top .3s var(--ease);
+}
+.skip-link:focus{top:16px;}
+
+.wrap{
+  width:100%;
+  max-width:var(--max);
+  margin-inline:auto;
+  padding-inline:20px;
+}
+@media (min-width:768px){ .wrap{padding-inline:32px;} }
+@media (min-width:1200px){ .wrap{padding-inline:40px;} }
+
+.visually-hidden{
+  position:absolute;width:1px;height:1px;overflow:hidden;
+  clip:rect(0 0 0 0);white-space:nowrap;
+}
+
+/* ============================================================
+   3. TYPOGRAPHY HELPERS
+   ============================================================ */
+.eyebrow{
+  font-size:.7rem;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  color:var(--rose);
+  font-weight:500;
+  margin-bottom:14px;
+}
+
+.section-lede{
+  margin-top:18px;
+  max-width:56ch;
+  color:var(--muted);
+  font-size:clamp(1rem,1.6vw,1.1rem);
+}
+
+.note{
+  margin-top:28px;
+  font-size:.86rem;
+  color:var(--muted);
+  max-width:62ch;
+}
+
+/* ============================================================
+   4. BUTTONS
+   ============================================================ */
+.btn{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:.55rem;
+  min-height:52px;
+  padding:0 26px;
+  border-radius:999px;
+  border:1px solid transparent;
+  font-family:var(--font-body);
+  font-size:.94rem;
+  font-weight:500;
+  letter-spacing:.01em;
+  cursor:pointer;
+  overflow:hidden;
+  isolation:isolate;
+  text-align:center;
+  transition:transform .45s var(--ease), box-shadow .45s var(--ease),
+             background-color .45s var(--ease), color .45s var(--ease),
+             border-color .45s var(--ease);
+}
+
+.btn svg{width:18px;height:18px;flex:none;transition:transform .45s var(--ease);}
+
+.btn-primary{
+  background:var(--rose);
+  color:var(--rose-ink);
+  box-shadow:var(--shadow-sm);
+}
+.btn-primary::after{
+  content:"";
+  position:absolute;inset:0;
+  z-index:-1;
+  background:linear-gradient(100deg,transparent 25%,rgba(255,255,255,.26) 50%,transparent 75%);
+  transform:translateX(-130%);
+  transition:transform .9s var(--ease);
+}
+.btn-primary:hover::after{transform:translateX(130%);}
+.btn-primary:hover{
+  transform:translateY(-3px);
+  box-shadow:var(--shadow-rose);
+}
+.btn-primary:hover svg{transform:rotate(-8deg) scale(1.06);}
+.btn-primary:active{transform:translateY(0) scale(.985);}
+
+.btn-ghost{
+  background:transparent;
+  color:var(--ink);
+  border-color:var(--line);
+}
+.btn-ghost:hover{
+  border-color:var(--rose);
+  color:var(--rose);
+  background:var(--surface);
+  transform:translateY(-3px);
+}
+.btn-ghost:active{transform:translateY(0) scale(.985);}
+
+.btn-sm{min-height:44px;padding:0 20px;font-size:.86rem;}
+
+/* ============================================================
+   5. SCROLL PROGRESS
+   ============================================================ */
+.progress{
+  position:fixed;
+  top:0;left:0;right:0;
+  height:2px;
+  z-index:130;
+  background:transparent;
+  pointer-events:none;
+}
+.progress span{
+  display:block;
+  height:100%;
+  width:100%;
+  background:linear-gradient(90deg,var(--ink) 0%,var(--rose) 100%);
+  transform:scaleX(0);
+  transform-origin:0 50%;
+  opacity:.9;
+}
+
+/* ============================================================
+   6. HEADER / NAV
+   ============================================================ */
+.site-header{
+  position:fixed;
+  top:0;left:0;right:0;
+  z-index:100;
+  background:transparent;
+  border-bottom:1px solid transparent;
+  transition:background-color .45s var(--ease), border-color .45s var(--ease),
+             box-shadow .45s var(--ease);
+}
+.site-header.is-scrolled{
+  background:var(--header-bg);
+  -webkit-backdrop-filter:blur(16px) saturate(150%);
+  backdrop-filter:blur(16px) saturate(150%);
+  border-bottom-color:var(--line-soft);
+  box-shadow:0 18px 40px -34px rgba(0,0,0,.7);
+}
+
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  height:var(--header-h);
+  transition:height .45s var(--ease);
+}
+.site-header.is-scrolled .header-inner{height:62px;}
+
+.brand{display:flex;align-items:center;line-height:1;}
+.brand-logo{
+  height:52px;
+  width:auto;
+  display:block;
+  mix-blend-mode:multiply;
+  transition:height .45s var(--ease), filter .45s var(--ease);
+}
+.site-header.is-scrolled .brand-logo{height:42px;}
+
+@media (prefers-color-scheme: dark){
+  .brand-logo{
+    filter:invert(1) brightness(.95);
+    mix-blend-mode:screen;
+  }
+}
+
+.nav-desktop{display:flex;align-items:center;gap:30px;}
+.nav-desktop a{
+  position:relative;
+  font-size:.9rem;
+  color:var(--ink-2);
+  padding-block:6px;
+  transition:color .3s var(--ease);
+}
+.nav-desktop a::after{
+  content:"";
+  position:absolute;
+  left:0;right:0;bottom:0;
+  height:1px;
+  background:var(--rose);
+  transform:scaleX(0);
+  transform-origin:100% 50%;
+  transition:transform .5s var(--ease);
+}
+.nav-desktop a:hover{color:var(--rose);}
+.nav-desktop a:hover::after{transform:scaleX(1);transform-origin:0 50%;}
+
+.header-actions{display:flex;align-items:center;gap:12px;}
+
+.menu-toggle{
+  display:none;
+  position:relative;
+  width:48px;height:48px;
+  border-radius:50%;
+  border:1px solid var(--line);
+  background:transparent;
+  cursor:pointer;
+  padding:0;
+  transition:border-color .3s var(--ease),background-color .3s var(--ease);
+}
+.menu-toggle:hover{border-color:var(--rose);}
+.menu-toggle span{
+  position:absolute;
+  left:14px;
+  width:20px;height:1.5px;
+  background:var(--ink);
+  transition:transform .5s var(--ease),opacity .3s var(--ease);
+}
+.menu-toggle span:nth-child(1){top:calc(50% - 4px);}
+.menu-toggle span:nth-child(2){top:calc(50% + 4px);}
+body.menu-open .menu-toggle span:nth-child(1){transform:translateY(4px) rotate(45deg);}
+body.menu-open .menu-toggle span:nth-child(2){transform:translateY(-4px) rotate(-45deg);}
+
+@media (max-width:899px){
+  .nav-desktop{display:none;}
+  .header-actions .btn{display:none;}
+  .menu-toggle{display:block;}
+  .brand-logo{height:44px;}
+}
+
+/* ============================================================
+   7. MOBILE MENU
+   ============================================================ */
+.mobile-menu{
+  position:fixed;
+  inset:0;
+  z-index:95;
+  background:var(--paper);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:calc(var(--header-h) + 24px) 24px 40px;
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(-12px);
+  transition:opacity .5s var(--ease), transform .6s var(--ease), visibility .5s;
+}
+.mobile-menu.is-open{opacity:1;visibility:visible;transform:none;}
+
+.mm-nav{display:flex;flex-direction:column;gap:2px;}
+.mm-link{
+  font-family:var(--font-display);
+  font-size:clamp(1.9rem,9vw,2.6rem);
+  line-height:1.22;
+  letter-spacing:-.01em;
+  padding-block:8px;
+  opacity:0;
+  transform:translateY(24px);
+  transition:opacity .6s var(--ease), transform .6s var(--ease), color .3s var(--ease);
+  border-bottom:1px solid var(--line-soft);
+}
+.mm-link:hover{color:var(--rose);}
+.mobile-menu.is-open .mm-link{opacity:1;transform:none;}
+.mobile-menu.is-open .mm-link:nth-child(1){transition-delay:.08s;}
+.mobile-menu.is-open .mm-link:nth-child(2){transition-delay:.14s;}
+.mobile-menu.is-open .mm-link:nth-child(3){transition-delay:.20s;}
+.mobile-menu.is-open .mm-link:nth-child(4){transition-delay:.26s;}
+.mobile-menu.is-open .mm-link:nth-child(5){transition-delay:.32s;}
+.mobile-menu.is-open .mm-link:nth-child(6){transition-delay:.38s;}
+
+.mm-foot{
+  margin-top:34px;
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  align-items:flex-start;
+  opacity:0;
+  transform:translateY(18px);
+  transition:opacity .55s var(--ease) .44s, transform .55s var(--ease) .44s;
+}
+.mobile-menu.is-open .mm-foot{opacity:1;transform:none;}
+.mm-phone{
+  font-size:.9rem;
+  color:var(--muted);
+  letter-spacing:.06em;
+}
+body.menu-open{overflow:hidden;}
+
+/* ============================================================
+   8. INTRO OVERLAY — spinning flowers
+   ============================================================ */
+.intro{
+  position:fixed;
+  inset:0;
+  z-index:200;
+  display:grid;
+  place-items:center;
+  background:var(--paper);
+  overflow:hidden;
+  transition:opacity .7s var(--ease), transform .95s var(--ease);
+}
+.intro.is-out{opacity:0;transform:translateY(-100%) scale(1.02);pointer-events:none;}
+
+.intro-stage{
+  position:relative;
+  width:min(360px,82vw);
+  aspect-ratio:1;
+  display:grid;
+  place-items:center;
+}
+
+.intro-ring{
+  position:absolute;
+  border-radius:50%;
+  border:1px solid var(--line-soft);
+  opacity:0;
+  animation:ringIn 1.4s var(--ease) forwards, ringPulse 5s ease-in-out 1.4s infinite;
+}
+.intro-ring.r1{inset:0;}
+.intro-ring.r2{inset:14%;border-color:var(--rose-line);animation-delay:.12s,1.5s;}
+.intro-ring.r3{inset:28%;animation-delay:.24s,1.6s;}
+@keyframes ringIn{ from{opacity:0;transform:scale(.82);} to{opacity:1;transform:scale(1);} }
+@keyframes ringPulse{
+  0%,100%{transform:scale(1);opacity:1;}
+  50%{transform:scale(1.035);opacity:.55;}
+}
+
+.intro-bloom{
+  position:absolute;
+  width:74%;
+  color:var(--rose);
+  opacity:0;
+  animation:bloomIn 1.5s var(--ease) .1s forwards;
+}
+.intro-bloom svg{
+  width:100%;height:auto;
+  animation:spinSlow 34s linear infinite;
+  transform-origin:50% 50%;
+}
+@keyframes bloomIn{ to{opacity:.16;} }
+
+.intro-flower{
+  position:absolute;
+  color:var(--ink);
+  opacity:0;
+  transform-origin:50% 50%;
+  animation:flowerIn 1.1s var(--ease) forwards;
+}
+.intro-flower svg{
+  width:100%;height:auto;
+  transform-origin:50% 50%;
+  animation:spinSlow 16s linear infinite;
+}
+.intro-flower.f1{width:64px;top:2%;left:0;color:var(--rose);animation-delay:.10s;}
+.intro-flower.f1 svg{animation-duration:17s;}
+.intro-flower.f2{width:44px;top:11%;right:2%;animation-delay:.22s;}
+.intro-flower.f2 svg{animation-duration:12s;animation-direction:reverse;}
+.intro-flower.f3{width:54px;bottom:3%;left:6%;color:var(--rose);animation-delay:.32s;}
+.intro-flower.f3 svg{animation-duration:21s;animation-direction:reverse;}
+.intro-flower.f4{width:36px;bottom:14%;right:0;animation-delay:.44s;}
+.intro-flower.f4 svg{animation-duration:11s;}
+.intro-flower.f5{width:26px;top:46%;left:-8px;color:var(--rose);animation-delay:.56s;}
+.intro-flower.f5 svg{animation-duration:14s;}
+
+@keyframes flowerIn{
+  from{opacity:0;transform:scale(.35) rotate(-45deg);}
+  to{opacity:.62;transform:scale(1) rotate(0deg);}
+}
+@keyframes spinSlow{ to{transform:rotate(360deg);} }
+
+.intro-inner{
+  position:relative;
+  z-index:2;
+  text-align:center;
+  padding:24px;
+}
+.intro-name{
+  display:block;
+  font-family:var(--font-display);
+  font-size:clamp(2.1rem,7vw,3.6rem);
+  line-height:1;
+  color:var(--ink);
+  opacity:0;
+  animation:introName 1.5s var(--ease) forwards;
+}
+.intro-sub{
+  display:block;
+  margin-top:14px;
+  font-size:.6rem;
+  letter-spacing:.28em;
+  text-transform:uppercase;
+  color:var(--muted);
+  opacity:0;
+  animation:introSub 1.1s var(--ease) .42s forwards;
+}
+.intro-line{
+  display:block;
+  width:0;
+  height:1px;
+  background:var(--rose);
+  margin:24px auto 0;
+  animation:introLine 1.5s var(--ease) .1s forwards;
+}
+.intro-hint{
+  position:absolute;
+  left:50%;
+  bottom:calc(env(safe-area-inset-bottom, 0px) + 26px);
+  transform:translateX(-50%);
+  font-size:.56rem;
+  letter-spacing:.3em;
+  text-transform:uppercase;
+  color:var(--muted);
+  opacity:0;
+  animation:introSub 1s var(--ease) .9s forwards;
+  pointer-events:none;
+}
+
+@keyframes introName{
+  0%{opacity:0;transform:scale(.94);letter-spacing:.24em;}
+  60%{opacity:1;}
+  100%{opacity:1;transform:scale(1);letter-spacing:.03em;}
+}
+@keyframes introSub{ to{opacity:1;} }
+@keyframes introLine{ to{width:150px;} }
+
+/* ============================================================
+   9. HERO — banner.png background
+   ============================================================ */
+.hero{
+  position:relative;
+  padding:calc(var(--header-h) + 60px) 0 70px;
+  overflow:hidden;
+  isolation:isolate;
+}
+@media (min-width:900px){
+  .hero{
+    padding:calc(var(--header-h) + 100px) 0 130px;
+    min-height:96vh;
+    display:flex;
+    align-items:center;
+  }
+}
+
+.hero-bg{
+  position:absolute;
+  inset:0;
+  z-index:-2;
+  background:url('banner.png') center/cover no-repeat;
+  filter:grayscale(.55) contrast(1.03);
+  transform:scale(1.04);
+  will-change:transform;
+}
+.hero-bg::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:var(--hero-scrim);
+  z-index:-1;
+}
+@media (prefers-reduced-motion: no-preference){
+  .hero-bg{animation:heroZoom 26s ease-in-out infinite alternate;}
+}
+@keyframes heroZoom{
+  from{transform:scale(1.04);}
+  to{transform:scale(1.12);}
+}
+
+.hero-mark{
+  position:absolute;
+  top:14%;
+  right:6%;
+  width:clamp(70px,11vw,150px);
+  color:var(--rose);
+  opacity:.5;
+  z-index:0;
+  pointer-events:none;
+  animation:spinSlow 80s linear infinite;
+}
+@media (max-width:899px){
+  .hero-mark{top:8%;right:4%;width:64px;opacity:.35;}
+}
+
+.hero-inner{position:relative;z-index:2;display:grid;gap:44px;}
+@media (min-width:900px){
+  .hero-inner{grid-template-columns:1.15fr .85fr;align-items:center;gap:60px;}
+}
+
+.hero h1{max-width:15ch;}
+.hero h1 em{font-style:italic;color:var(--rose);}
+
+.hero .lede{
+  margin-top:22px;
+  max-width:46ch;
+  font-size:clamp(1rem,1.7vw,1.12rem);
+  color:var(--ink-2);
+  line-height:1.75;
+}
+
+.hero-actions{
+  margin-top:32px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+
+.trust{
+  list-style:none;
+  margin:36px 0 0;
+  padding:22px 0 0;
+  border-top:1px solid var(--line-soft);
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px 26px;
+}
+.trust li{
+  position:relative;
+  font-size:.78rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--ink-2);
+  padding-left:18px;
+}
+.trust li::before{
+  content:"";
+  position:absolute;
+  left:0;top:50%;
+  width:8px;height:1px;
+  background:var(--rose);
+}
+
+.scroll-cue{
+  position:absolute;
+  left:50%;
+  bottom:24px;
+  transform:translateX(-50%);
+  display:none;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+  font-size:.56rem;
+  letter-spacing:.3em;
+  text-transform:uppercase;
+  color:var(--muted);
+  z-index:3;
+}
+.scroll-cue .line{
+  position:relative;
+  display:block;
+  width:1px;
+  height:42px;
+  background:var(--line-soft);
+  overflow:hidden;
+}
+.scroll-cue .line::after{
+  content:"";
+  position:absolute;
+  left:0;top:-42px;
+  width:1px;height:42px;
+  background:var(--rose);
+  animation:cueRun 2.4s var(--ease) infinite;
+}
+@keyframes cueRun{
+  0%{top:-42px;}
+  60%,100%{top:42px;}
+}
+@media (min-width:900px){ .scroll-cue{display:flex;} }
+
+.js .hero .eyebrow,
+.js .hero .lede,
+.js .hero .hero-actions,
+.js .hero .trust{
+  opacity:0;
+  transform:translateY(16px);
+}
+.js .hero.is-ready .eyebrow,
+.js .hero.is-ready .lede,
+.js .hero.is-ready .hero-actions,
+.js .hero.is-ready .trust{
+  opacity:1;
+  transform:none;
+  transition:opacity .85s var(--ease), transform .85s var(--ease);
+}
+.js .hero.is-ready .lede{transition-delay:.28s;}
+.js .hero.is-ready .hero-actions{transition-delay:.42s;}
+.js .hero.is-ready .trust{transition-delay:.56s;}
+
+.w{display:inline-block;overflow:hidden;vertical-align:bottom;padding-bottom:.12em;margin-bottom:-.12em;}
+.w > span{display:inline-block;transform:translateY(112%);opacity:0;}
+.is-ready .w > span{
+  animation:wordRise .9s var(--ease) forwards;
+  animation-delay:calc(var(--i,0) * 62ms);
+}
+@keyframes wordRise{ to{transform:none;opacity:1;} }
+
+/* ============================================================
+   10. MARQUEE BAND — rose
+   ============================================================ */
+.marquee{
+  overflow:hidden;
+  background:var(--band-bg);
+  padding:14px 0;
+  border-block:1px solid transparent;
+}
+.marquee-track{
+  display:flex;
+  width:max-content;
+  animation:marquee 46s linear infinite;
+  will-change:transform;
+}
+.marquee:hover .marquee-track{animation-play-state:paused;}
+.marquee-track span{
+  white-space:nowrap;
+  padding-inline:20px;
+  font-size:.68rem;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  color:var(--band-ink);
+}
+.marquee-track span:nth-child(even){color:var(--band-dot);padding-inline:4px;}
+@keyframes marquee{ to{transform:translateX(-50%);} }
+
+/* ============================================================
+   11. SECTIONS + REVEALS
+   ============================================================ */
+.section{padding:68px 0;}
+@media (min-width:900px){ .section{padding:108px 0;} }
+
+.section-head{max-width:70ch;margin-bottom:44px;}
+@media (min-width:900px){ .section-head{margin-bottom:58px;} }
+
+.section--wash{
+  background:linear-gradient(180deg, var(--rose-wash) 0%, transparent 62%);
+}
+
+.js .reveal{transition:opacity .85s var(--ease), transform .85s var(--ease);transition-delay:var(--d,0ms);}
+.js .reveal:not(.in){opacity:0;transform:translateY(26px);}
+
+/* ============================================================
+   12. DIVIDER
+   ============================================================ */
+.divider{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:18px;
+  padding-block:8px;
+}
+.divider .d-line{
+  height:1px;
+  width:100%;
+  max-width:170px;
+  transform:scaleX(0);
+  transform-origin:center;
+  transition:transform 1s var(--ease);
+}
+.divider .d-line:first-of-type{background:linear-gradient(90deg,transparent,var(--rose-line));}
+.divider .d-line:last-of-type{background:linear-gradient(90deg,var(--rose-line),transparent);}
+.divider.in .d-line{transform:scaleX(1);}
+.divider .d-flower{
+  width:34px;
+  height:34px;
+  color:var(--rose);
+  opacity:.65;
+  flex:none;
+  animation:spinSlow 28s linear infinite;
+}
+
+/* ============================================================
+   13. SERVICES — editorial 12-column grid
+   ============================================================ */
+.cards{
+  display:grid;
+  gap:16px;
+  grid-template-columns:1fr;
+}
+@media (min-width:700px){
+  .cards{grid-template-columns:1fr 1fr;gap:18px;}
+}
+@media (min-width:1080px){
+  .cards{grid-template-columns:repeat(12,1fr);gap:22px;}
+  .card{grid-column:span 4;}
+  .card--w7{grid-column:span 7;}
+  .card--w5{grid-column:span 5;}
+}
+@media (max-width:1079px){
+  .card--w7{grid-column:1 / -1;}
+}
+
+.card{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  border:1px solid var(--line-soft);
+  border-radius:var(--radius);
+  background:var(--paper);
+  box-shadow:var(--shadow-sm);
+  overflow:hidden;
+  transform:translateY(var(--lift,0));
+  transition:transform .5s var(--ease), box-shadow .55s var(--ease), border-color .55s var(--ease);
+}
+
+@media (hover:hover) and (min-width:1000px){
+  .card:hover{
+    --lift:-7px;
+    box-shadow:var(--shadow-md);
+    border-color:var(--rose-line);
+  }
+  .card:hover .card-media img{transform:scale(1.06);}
+  .card:hover .card-index{transform:translateY(-2px);}
+}
+
+/* Media */
+.card-media{
+  position:relative;
+  aspect-ratio:4/3;
+  overflow:hidden;
+  background:var(--surface-2);
+}
+.card-media img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:transform 1s var(--ease);
+}
+.card-media::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg,transparent 60%,rgba(13,13,13,.10) 100%);
+  pointer-events:none;
+}
+
+/* Number badge over the image */
+.card-index{
+  position:absolute;
+  top:14px;left:14px;
+  z-index:2;
+  display:grid;
+  place-items:center;
+  min-width:34px;height:34px;
+  padding:0 10px;
+  border-radius:999px;
+  background:var(--rose);
+  color:var(--rose-ink);
+  font-size:.66rem;
+  font-weight:500;
+  letter-spacing:.1em;
+  font-variant-numeric:tabular-nums;
+  box-shadow:0 6px 18px -10px rgba(0,0,0,.6);
+  transition:transform .45s var(--ease);
+}
+
+.card--w5 .card-media{aspect-ratio:5/4;}
+
+/* Feature (horizontal) card */
+@media (min-width:700px){
+  .card--feat{display:grid;grid-template-columns:.88fr 1.12fr;align-items:stretch;}
+  .card--feat .card-media{aspect-ratio:auto;min-height:320px;height:100%;}
+}
+
+/* Wide price-list card */
+.card--wide .card-media{aspect-ratio:16/9;}
+
+.card-body{
+  display:flex;
+  flex-direction:column;
+  flex:1;
+  padding:22px 22px 24px;
+}
+
+.card h3{margin-bottom:8px;}
+
+.card-price{
+  font-family:var(--font-display);
+  font-size:1.5rem;
+  line-height:1.15;
+  color:var(--rose);
+  margin-bottom:12px;
+  letter-spacing:-.01em;
+  font-variant-numeric:tabular-nums;
+}
+.card-price--quote{
+  font-family:var(--font-body);
+  font-size:.7rem;
+  font-weight:500;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--rose);
+  padding-block:6px;
+}
+
+.card p{
+  color:var(--muted);
+  font-size:.9rem;
+  line-height:1.68;
+}
+.card p + p{margin-top:10px;}
+
+.card .fine{
+  font-size:.8rem;
+  color:var(--muted);
+  margin-top:12px;
+  padding-top:12px;
+  border-top:1px dashed var(--line-soft);
+}
+
+.card-link{
+  margin-top:auto;
+  padding-top:18px;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  font-size:.76rem;
+  font-weight:500;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--rose);
+  align-self:flex-start;
+  transition:color .35s var(--ease), gap .35s var(--ease);
+}
+.card-link svg{width:16px;height:16px;transition:transform .45s var(--ease);}
+.card-link:hover{gap:12px;color:var(--ink);}
+.card-link:hover svg{transform:translateX(3px);}
+
+/* Money bouquet price list */
+.price-list{
+  list-style:none;
+  margin:16px 0 0;
+  padding:0;
+  columns:1;
+  column-gap:28px;
+  font-size:.86rem;
+}
+@media (min-width:560px){
+  .price-list{columns:2;}
+}
+.price-list li{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  padding:8px 0;
+  border-bottom:1px dashed var(--line-soft);
+  break-inside:avoid;
+  color:var(--ink-2);
+  line-height:1.45;
+}
+.price-list li span:last-child{
+  color:var(--rose);
+  font-weight:500;
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+}
+
+/* ============================================================
+   14. GALLERY — 1.jpg to 6.jpg
+   ============================================================ */
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
+}
+@media (min-width:768px){
+  .gallery{grid-template-columns:repeat(3,1fr);gap:16px;}
+}
+
+.g-item{
+  position:relative;
+  display:block;
+  width:100%;
+  padding:0;
+  aspect-ratio:4/5;
+  border:1px solid var(--line-soft);
+  border-radius:var(--radius);
+  overflow:hidden;
+  background:var(--surface-2);
+  cursor:pointer;
+  transition:border-color .45s var(--ease), box-shadow .45s var(--ease);
+}
+.g-item:hover{border-color:var(--rose-line);box-shadow:var(--shadow-md);}
+
+.g-item img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:transform 1s var(--ease);
+}
+.g-item:hover img{transform:scale(1.055);}
+
+.g-cap{
+  position:absolute;
+  left:12px;bottom:12px;
+  z-index:2;
+  font-size:.6rem;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:var(--rose-ink);
+  padding:7px 12px;
+  background:var(--rose);
+  border-radius:999px;
+  opacity:0;
+  transform:translateY(8px);
+  transition:opacity .4s var(--ease), transform .4s var(--ease);
+}
+.g-item:hover .g-cap,
+.g-item:focus-visible .g-cap{opacity:1;transform:none;}
+@media (hover:none){
+  .g-cap{opacity:1;transform:none;}
+}
+
+/* Lightbox */
+.lightbox{
+  position:fixed;
+  inset:0;
+  z-index:150;
+  display:grid;
+  place-items:center;
+  padding:20px;
+  background:rgba(8,8,8,.9);
+  -webkit-backdrop-filter:blur(14px);
+  backdrop-filter:blur(14px);
+  opacity:0;
+  visibility:hidden;
+  transition:opacity .45s var(--ease), visibility .45s;
+}
+.lightbox.is-open{opacity:1;visibility:visible;}
+
+.lb-stage{
+  position:relative;
+  width:min(560px,90vw);
+  max-height:82vh;
+  aspect-ratio:4/5;
+  border-radius:20px;
+  overflow:hidden;
+  background:var(--surface-2);
+  transform:scale(.93) translateY(10px);
+  transition:transform .55s var(--ease);
+  display:grid;
+  place-items:center;
+}
+.lightbox.is-open .lb-stage{transform:scale(1) translateY(0);}
+.lb-stage img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.lb-close,.lb-prev,.lb-next{
+  position:absolute;
+  display:grid;
+  place-items:center;
+  width:46px;height:46px;
+  border-radius:50%;
+  border:1px solid rgba(255,255,255,.28);
+  background:rgba(255,255,255,.06);
+  color:#fff;
+  cursor:pointer;
+  transition:background-color .3s var(--ease), transform .3s var(--ease), border-color .3s var(--ease);
+}
+.lb-close:hover,.lb-prev:hover,.lb-next:hover{
+  background:rgba(255,255,255,.16);
+  border-color:rgba(199,163,166,.7);
+  transform:scale(1.06);
+}
+.lb-close{top:18px;right:18px;}
+.lb-prev{left:14px;top:50%;transform:translateY(-50%);}
+.lb-next{right:14px;top:50%;transform:translateY(-50%);}
+.lb-prev:hover,.lb-next:hover{transform:translateY(-50%) scale(1.06);}
+.lb-close svg,.lb-prev svg,.lb-next svg{width:20px;height:20px;}
+.lb-count{
+  position:absolute;
+  bottom:18px;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:.68rem;
+  letter-spacing:.2em;
+  color:rgba(255,255,255,.78);
+}
+
+/* ============================================================
+   15. ABOUT
+   ============================================================ */
+.about-grid{display:grid;gap:40px;}
+@media (min-width:900px){
+  .about-grid{grid-template-columns:.92fr 1.08fr;gap:64px;align-items:center;}
+}
+
+.about-media{
+  position:relative;
+  aspect-ratio:4/5;
+  border-radius:var(--radius);
+  border:1px solid var(--line-soft);
+  overflow:hidden;
+  background:var(--surface-2);
+}
+.about-media img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.about-copy p{color:var(--muted);margin-top:18px;max-width:52ch;}
+
+.about-list{
+  list-style:none;
+  margin:30px 0 0;
+  padding:0;
+  display:grid;
+  gap:12px;
+}
+@media (min-width:560px){ .about-list{grid-template-columns:1fr 1fr;} }
+.about-list li{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-size:.88rem;
+  color:var(--ink-2);
+}
+.about-list svg{width:16px;height:16px;flex:none;color:var(--rose);}
+
+/* ============================================================
+   16. REVIEWS
+   ============================================================ */
+.review-summary{
+  display:flex;
+  align-items:baseline;
+  gap:16px;
+  flex-wrap:wrap;
+  margin-bottom:34px;
+}
+.review-score{
+  font-family:var(--font-display);
+  font-size:clamp(2.6rem,6vw,3.6rem);
+  line-height:1;
+  color:var(--rose);
+  font-variant-numeric:tabular-nums;
+}
+.review-meta{font-size:.86rem;color:var(--muted);}
+
+.stars{display:inline-flex;gap:3px;color:var(--rose);}
+.stars svg{width:15px;height:15px;}
+.stars .empty{opacity:.26;}
+
+.reviews-grid{display:grid;gap:14px;}
+@media (min-width:760px){ .reviews-grid{grid-template-columns:1fr 1fr;gap:18px;} }
+@media (min-width:1100px){ .reviews-grid{grid-template-columns:repeat(3,1fr);} }
+
+.review{
+  display:flex;
+  flex-direction:column;
+  padding:26px 24px;
+  border:1px solid var(--line-soft);
+  border-radius:var(--radius);
+  background:var(--surface);
+  transition:transform .5s var(--ease), box-shadow .5s var(--ease), border-color .5s var(--ease);
+}
+@media (hover:hover){
+  .review:hover{transform:translateY(-5px);box-shadow:var(--shadow-sm);border-color:var(--rose-line);}
+}
+.review-top{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:16px;}
+.review-name{font-size:.9rem;font-weight:500;color:var(--ink);}
+.review-text{font-size:.93rem;color:var(--muted);line-height:1.72;white-space:pre-line;}
+
+/* ============================================================
+   17. BOOKING
+   ============================================================ */
+.booking-grid{display:grid;gap:36px;}
+@media (min-width:960px){
+  .booking-grid{grid-template-columns:1.15fr .85fr;gap:56px;align-items:start;}
+}
+
+.form{
+  display:grid;
+  gap:16px;
+  grid-template-columns:1fr;
+}
+@media (min-width:720px){
+  .form{grid-template-columns:1fr 1fr;}
+  .form .full{grid-column:1 / -1;}
+}
+
+.field{position:relative;}
+
+.field input,
+.field select,
+.field textarea{
+  width:100%;
+  min-height:62px;
+  padding:26px 16px 10px;
+  border:1px solid var(--line);
+  border-radius:var(--radius-sm);
+  background:var(--surface);
+  color:var(--ink);
+  font-family:var(--font-body);
+  font-size:1rem;
+  line-height:1.4;
+  transition:border-color .35s var(--ease), box-shadow .35s var(--ease), background-color .35s var(--ease);
+  appearance:none;
+  -webkit-appearance:none;
+}
+.field textarea{min-height:132px;padding-top:28px;resize:vertical;}
+.field select{cursor:pointer;background-image:none;}
+
+.field label{
+  position:absolute;
+  left:16px;
+  top:21px;
+  font-size:.95rem;
+  color:var(--muted);
+  pointer-events:none;
+  transform-origin:left top;
+  transition:top .28s var(--ease), font-size .28s var(--ease), letter-spacing .28s var(--ease), color .28s var(--ease);
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus{
+  border-color:var(--rose);
+  box-shadow:0 0 0 4px var(--rose-soft);
+  outline:none;
+  background:var(--paper);
+}
+
+.field input:focus + label,
+.field input:not(:placeholder-shown) + label,
+.field textarea:focus + label,
+.field textarea:not(:placeholder-shown) + label,
+.field--top label{
+  top:9px;
+  font-size:.66rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--muted);
+}
+.field input:focus + label,
+.field textarea:focus + label,
+.field select:focus + label{color:var(--rose);}
+
+.field--top select{padding-top:28px;}
+
+.field-err{
+  display:block;
+  min-height:0;
+  margin-top:6px;
+  font-size:.75rem;
+  color:var(--error);
+  opacity:0;
+  transform:translateY(-3px);
+  transition:opacity .3s var(--ease), transform .3s var(--ease);
+}
+.field.is-invalid input,
+.field.is-invalid select,
+.field.is-invalid textarea{
+  border-color:var(--error);
+  box-shadow:0 0 0 4px rgba(179,53,43,.1);
+}
+.field.is-invalid .field-err{opacity:1;transform:none;}
+
+.form-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;}
+.form-note{font-size:.78rem;color:var(--muted);}
+
+.booking-aside{
+  padding:30px 26px;
+  border:1px solid var(--rose-line);
+  border-radius:var(--radius);
+  background:linear-gradient(180deg, var(--rose-wash), var(--surface));
+  box-shadow:var(--shadow-sm);
+}
+.booking-aside h3{margin-bottom:14px;}
+.booking-aside p{color:var(--muted);font-size:.92rem;}
+.booking-aside .aside-actions{margin-top:24px;display:grid;gap:10px;}
+.booking-aside .btn{width:100%;}
+.aside-detail{
+  margin-top:24px;
+  padding-top:20px;
+  border-top:1px solid var(--line-soft);
+  display:grid;
+  gap:10px;
+  font-size:.88rem;
+  color:var(--muted);
+}
+.aside-detail a{display:flex;align-items:center;gap:10px;color:var(--ink-2);transition:color .3s;}
+.aside-detail a:hover{color:var(--rose);}
+.aside-detail svg{width:16px;height:16px;flex:none;color:var(--rose);}
+
+/* ============================================================
+   18. LOCATION & HOURS
+   ============================================================ */
+.visit-grid{display:grid;gap:32px;}
+@media (min-width:960px){
+  .visit-grid{grid-template-columns:1fr 1fr;gap:56px;align-items:start;}
+}
+
+.visit-block + .visit-block{margin-top:34px;}
+
+.visit-label{
+  font-size:.66rem;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:var(--rose);
+  margin-bottom:10px;
+}
+
+.visit-address{font-size:1.02rem;line-height:1.7;color:var(--ink-2);}
+
+.link-inline{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:14px;
+  font-size:.85rem;
+  letter-spacing:.06em;
+  color:var(--ink);
+  border-bottom:1px solid var(--line);
+  padding-bottom:3px;
+  transition:border-color .3s var(--ease), color .3s var(--ease);
+}
+.link-inline:hover{border-color:var(--rose);color:var(--rose);}
+.link-inline svg{width:15px;height:15px;transition:transform .4s var(--ease);}
+.link-inline:hover svg{transform:translateX(4px);}
+
+.hours-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:.92rem;
+}
+.hours-table th,
+.hours-table td{
+  padding:13px 12px;
+  text-align:left;
+  border-bottom:1px solid var(--line-soft);
+  font-weight:400;
+  color:var(--ink-2);
+}
+.hours-table th{color:var(--muted);font-size:.86rem;}
+.hours-table td:last-child{text-align:right;font-variant-numeric:tabular-nums;}
+.hours-table tr.is-today th,
+.hours-table tr.is-today td{
+  color:var(--ink);
+  background:var(--rose-soft);
+}
+.hours-table tr.is-today th{border-left:2px solid var(--rose);}
+.hours-table tr.is-today th::after{
+  content:"Today";
+  display:inline-block;
+  margin-left:10px;
+  font-size:.6rem;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--rose);
+  vertical-align:middle;
+}
+.hours-table tr:last-child th,
+.hours-table tr:last-child td{border-bottom:none;}
+
+.map-frame{
+  position:relative;
+  margin-top:28px;
+  border-radius:var(--radius);
+  overflow:hidden;
+  border:1px solid var(--line-soft);
+  background:var(--surface);
+  aspect-ratio:16/11;
+}
+.map-frame iframe{
+  width:100%;
+  height:100%;
+  border:0;
+  display:block;
+  filter:grayscale(1) contrast(1.05);
+}
+@media (prefers-color-scheme: dark){
+  .map-frame iframe{filter:grayscale(1) invert(.92) contrast(.9);}
+}
+
+/* ============================================================
+   19. CONTACT
+   ============================================================ */
+.contact-grid{
+  display:grid;
+  gap:12px;
+  grid-template-columns:1fr;
+}
+@media (min-width:640px){ .contact-grid{grid-template-columns:1fr 1fr;gap:16px;} }
+@media (min-width:1000px){ .contact-grid{grid-template-columns:repeat(3,1fr);} }
+
+.contact-card{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:20px 22px;
+  border:1px solid var(--line-soft);
+  border-radius:var(--radius-sm);
+  background:var(--paper);
+  min-height:76px;
+  transition:transform .45s var(--ease), border-color .45s var(--ease), box-shadow .45s var(--ease), background-color .45s var(--ease);
+}
+.contact-card:hover{
+  transform:translateY(-5px);
+  border-color:var(--rose-line);
+  box-shadow:var(--shadow-sm);
+  background:var(--surface);
+}
+.contact-card:hover .contact-icon{
+  border-color:var(--rose);
+  color:var(--rose);
+  transform:rotate(-6deg) scale(1.05);
+}
+.contact-icon{
+  display:grid;
+  place-items:center;
+  width:42px;height:42px;
+  flex:none;
+  border-radius:50%;
+  border:1px solid var(--line-soft);
+  color:var(--ink);
+  transition:transform .45s var(--ease), border-color .45s var(--ease), color .45s var(--ease);
+}
+.contact-icon svg{width:18px;height:18px;}
+.contact-text{display:flex;flex-direction:column;min-width:0;}
+.contact-key{
+  font-size:.62rem;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:var(--muted);
+  margin-bottom:3px;
+}
+.contact-val{
+  font-size:.92rem;
+  color:var(--ink);
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+/* ============================================================
+   20. FOOTER
+   ============================================================ */
+.site-footer{
+  background:var(--footer-bg);
+  border-top:1px solid var(--line-soft);
+  margin-top:20px;
+}
+.footer-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  flex-wrap:wrap;
+  padding-block:30px;
+}
+.zela-badge{
+  height:50px;
+  width:auto;
+  display:block;
+}
+.copyright{
+  font-size:.82rem;
+  color:var(--muted);
+  text-align:right;
+}
+@media (max-width:560px){
+  .footer-inner{flex-direction:row;justify-content:space-between;gap:12px;padding-block:24px;}
+  .copyright{font-size:.72rem;text-align:right;}
+  .zela-badge{height:50px;}
+}
+@media (max-width:380px){
+  .footer-inner{flex-direction:column;justify-content:center;text-align:center;}
+  .copyright{text-align:center;}
+}
+
+/* ============================================================
+   21. MOBILE STICKY BAR + BACK TO TOP
+   ============================================================ */
+.mobile-bar{
+  position:fixed;
+  left:0;right:0;bottom:0;
+  z-index:80;
+  display:none;
+  gap:10px;
+  padding:10px 14px calc(10px + env(safe-area-inset-bottom));
+  background:var(--header-bg);
+  -webkit-backdrop-filter:blur(16px) saturate(150%);
+  backdrop-filter:blur(16px) saturate(150%);
+  border-top:1px solid var(--line-soft);
+}
+.mobile-bar a{
+  flex:1;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:9px;
+  min-height:50px;
+  border-radius:999px;
+  font-size:.9rem;
+  font-weight:500;
+  transition:transform .3s var(--ease), border-color .3s var(--ease), color .3s var(--ease);
+}
+.mobile-bar a:active{transform:scale(.97);}
+.mb-wa{background:var(--rose);color:var(--rose-ink);}
+.mb-call{background:transparent;color:var(--ink);border:1px solid var(--line);}
+.mb-call:hover{border-color:var(--rose);color:var(--rose);}
+.mobile-bar svg{width:17px;height:17px;}
+
+@media (max-width:899px){
+  .mobile-bar{display:flex;}
+  body{padding-bottom:74px;}
+}
+
+.to-top{
+  position:fixed;
+  right:16px;
+  bottom:20px;
+  z-index:70;
+  width:46px;height:46px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  border:1px solid var(--line);
+  background:var(--paper);
+  color:var(--ink);
+  cursor:pointer;
+  box-shadow:var(--shadow-sm);
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(12px);
+  transition:opacity .4s var(--ease), transform .4s var(--ease), visibility .4s,
+             border-color .4s var(--ease), color .4s var(--ease);
+}
+.to-top.is-visible{opacity:1;visibility:visible;transform:none;}
+.to-top:hover{
+  transform:translateY(-3px);
+  border-color:var(--rose);
+  color:var(--rose);
+  box-shadow:var(--shadow-md);
+}
+.to-top svg{width:18px;height:18px;}
+@media (max-width:899px){ .to-top{bottom:88px;} }
+
+/* ============================================================
+   22. REDUCED MOTION
+   ============================================================ */
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto;}
+  *,*::before,*::after{
+    animation-duration:.001ms !important;
+    animation-iteration-count:1 !important;
+    transition-duration:.001ms !important;
+  }
+  .js .reveal:not(.in){opacity:1 !important;transform:none !important;}
+  .js .hero .eyebrow,
+  .js .hero .lede,
+  .js .hero .hero-actions,
+  .js .hero .trust{opacity:1 !important;transform:none !important;}
+  .w > span{transform:none !important;opacity:1 !important;}
+  .marquee-track{animation:none !important;}
+  .hero-bg{animation:none !important;}
+  .hero-mark,.art-flower,.art-ring,.petal,.d-flower{animation:none !important;}
+  .scroll-cue .line::after{animation:none !important;top:0;}
+}
+</style>
+</head>
+
+<body id="top">
+
+<!-- ============ SVG SPRITE ============ -->
+<svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden">
+  <symbol id="flower" viewBox="0 0 200 200">
+    <g transform="translate(100 96)" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="0" cy="-32" rx="15" ry="30"/>
+      <ellipse cx="0" cy="-32" rx="15" ry="30" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-32" rx="15" ry="30" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-32" rx="15" ry="30" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-32" rx="15" ry="30" transform="rotate(288)"/>
+      <circle cx="0" cy="0" r="8"/>
+      <path d="M0 8v58"/>
+      <path d="M0 44c-14-2-22-10-24-20 12-1 20 8 24 20Z"/>
+      <path d="M0 56c13-2 21-9 23-19-11-1-19 8-23 19Z"/>
+    </g>
+  </symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ SCROLL PROGRESS ============ -->
+<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand" aria-label="Rosa Blanca — back to top">
+      <img class="brand-logo" src="logo.jpg" alt="Rosa Blanca" width="180" height="52" decoding="async">
+    </a>
+
+    <nav class="nav-desktop" aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#visit">Visit</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-primary btn-sm"
+         href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20place%20an%20order."
+         target="_blank" rel="noopener">Book now</a>
+      <button class="menu-toggle" id="menuToggle" type="button"
+              aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Site menu" aria-hidden="true">
+  <nav class="mm-nav" aria-label="Mobile navigation">
+    <a class="mm-link" href="#services">Services</a>
+    <a class="mm-link" href="#gallery">Gallery</a>
+    <a class="mm-link" href="#about">About</a>
+    <a class="mm-link" href="#reviews">Reviews</a>
+    <a class="mm-link" href="#visit">Visit</a>
+    <a class="mm-link" href="#contact">Contact</a>
+  </nav>
+  <div class="mm-foot">
+    <a class="btn btn-primary"
+       href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20place%20an%20order."
+       target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.5 7.4L3.5 20.5l1.6-4.4a8.4 8.4 0 1 1 15.4-4.5Z"/></svg>
+      WhatsApp us
+    </a>
+    <a class="mm-phone" href="tel:+263779159870">077 915 9870</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+
+    <div class="hero-mark" aria-hidden="true">
+      <svg viewBox="0 0 200 200"><use href="#flower"/></svg>
+    </div>
+
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Suburbs · Bulawayo</p>
+        <h1>Blooming <em>elegance</em> for every occasion.</h1>
+        <p class="lede">
+          A florist and gift shop on Seventh Street in Suburbs. Fresh arrangements,
+          thoughtful gifts, and delivery across Zimbabwe and internationally.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary"
+             href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20place%20an%20order."
+             target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.5 7.4L3.5 20.5l1.6-4.4a8.4 8.4 0 1 1 15.4-4.5Z"/></svg>
+            Order on WhatsApp
+          </a>
+          <a class="btn btn-ghost" href="#services">See services</a>
+        </div>
+        <ul class="trust">
+          <li>In-store pickup</li>
+          <li>Delivery</li>
+          <li>International delivery</li>
+        </ul>
+      </div>
+    </div>
+
+    <a class="scroll-cue" href="#services" aria-label="Scroll to services">
+      <span>Scroll</span>
+      <span class="line"></span>
+    </a>
+  </section>
+
+  <!-- ============ MARQUEE BAND ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>In-store pickup</span><span>·</span>
+      <span>Delivery</span><span>·</span>
+      <span>In-store shopping</span><span>·</span>
+      <span>Online booking</span><span>·</span>
+      <span>Reservations</span><span>·</span>
+      <span>Zimbabwe &amp; international delivery</span><span>·</span>
+      <span>In-store pickup</span><span>·</span>
+      <span>Delivery</span><span>·</span>
+      <span>In-store shopping</span><span>·</span>
+      <span>Online booking</span><span>·</span>
+      <span>Reservations</span><span>·</span>
+      <span>Zimbabwe &amp; international delivery</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section section--wash" id="services">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="eyebrow">What we do</p>
+        <h2>Flowers and gifts, made to order</h2>
+        <p class="section-lede">
+          Browse the arrangements below, then message us on WhatsApp to place your order.
+          Delivery and add-ons are confirmed before you pay.
+        </p>
+      </header>
+
+      <div class="cards" data-stagger>
+
+        <!-- 01 — Mixed bouquets (feature) -->
+        <article class="card card--feat card--w7 reveal">
+          <div class="card-media">
+            <span class="card-index">01</span>
+            <img src="mixed.jpg" alt="Standard mixed bouquet of roses and carnations in mixed colours" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="card-body">
+            <h3>Mixed bouquets</h3>
+            <p class="card-price">US$30.00</p>
+            <p>Our Standard Mixed Bouquet starts from as little as $30 and consists of roses, with the option to mix 2 rose colours and carnations or spray flowers for a vibrant and personalised arrangement.</p>
+            <a class="card-link" href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20order%20a%20mixed%20bouquet." target="_blank" rel="noopener">
+              Order on WhatsApp
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- 02 — Bridal bouquets -->
+        <article class="card card--w5 reveal">
+          <div class="card-media">
+            <span class="card-index">02</span>
+            <img src="bridal.jpg" alt="Bridal bouquet in a traditional round style" loading="lazy" decoding="async" width="800" height="640">
+          </div>
+          <div class="card-body">
+            <h3>Bridal bouquets</h3>
+            <p class="card-price card-price--quote">Ask for a quote</p>
+            <p>We offer traditional round bridal bouquets and cascading bridal bouquets. Message us today for a quotation.</p>
+            <p class="fine">Please note, Lillies, orchids, hydrangeas, and peonies are imported flowers, so bouquets featuring these will be priced higher.</p>
+            <a class="card-link" href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20a%20quote%20for%20bridal%20bouquets." target="_blank" rel="noopener">
+              Request a quote
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- 03 — Vases -->
+        <article class="card reveal">
+          <div class="card-media">
+            <span class="card-index">03</span>
+            <img src="vase.jpg" alt="Premium clear glass vases in various sizes" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="card-body">
+            <h3>Vases</h3>
+            <p class="card-price">From $8 – $40</p>
+            <p>Our collection features premium, thick-quality clear glass vases. Perfect for elevating any arrangement or space.</p>
+            <p class="fine">Simple. Elegant. Timeless. Hurry while stocks last!</p>
+            <a class="card-link" href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20ask%20about%20your%20vases." target="_blank" rel="noopener">
+              Ask on WhatsApp
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- 04 — Bordeaux Royale -->
+        <article class="card reveal">
+          <div class="card-media">
+            <span class="card-index">04</span>
+            <img src="Bordeaux.jpg" alt="Bordeaux Royale bouquet of 100 red Bordeaux rose stems" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="card-body">
+            <h3>Bordeaux Royale</h3>
+            <p class="card-price">US$250.00</p>
+            <p>This bouquet features 100 stunning Red Bordeaux rose stems, expertly arranged.</p>
+            <p class="fine">Enjoy complimentary delivery within Bulawayo!</p>
+            <a class="card-link" href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20order%20the%20Bordeaux%20Royale%20bouquet." target="_blank" rel="noopener">
+              Order on WhatsApp
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- 05 — Ramo Buchón -->
+        <article class="card reveal">
+          <div class="card-media">
+            <span class="card-index">05</span>
+            <img src="ramo.jpg" alt="Ramo Buchón bouquet of 50 curated rose stems" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="card-body">
+            <h3>Ramo Buchón</h3>
+            <p class="card-price">US$120.00</p>
+            <p>This bouquet features 50 carefully curated rose stems, arranged with love.</p>
+            <a class="card-link" href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20order%20a%20Ramo%20Buch%C3%B3n." target="_blank" rel="noopener">
+              Order on WhatsApp
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- 06 — Joyful blooms -->
+        <article class="card reveal">
+          <div class="card-media">
+            <span class="card-index">06</span>
+            <img src="joyful.jpg" alt="Joyful Blooms bouquet of 12 roses" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="card-body">
+            <h3>Joyful blooms</h3>
+            <p class="card-price">US$20.00</p>
+            <p>The Joyful Blooms bouquet features 12 beautiful roses. Perfect for any occasion!</p>
+            <p class="fine">Please note that the Teddy is an additional cost!</p>
+            <a class="card-link" href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20order%20a%20Joyful%20Blooms%20bouquet." target="_blank" rel="noopener">
+              Order on WhatsApp
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- 07 — Halo bouquets -->
+        <article class="card reveal">
+          <div class="card-media">
+            <span class="card-index">07</span>
+            <img src="halo.jpg" alt="Halo bouquet of 20 roses with a baby's breath rim" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="card-body">
+            <h3>Halo bouquets</h3>
+            <p class="card-price">US$55.00</p>
+            <p>This bouquet includes 20 rose stems, complemented with a delicate baby's breath rim or additional accents for a touch of elegance.</p>
+            <p class="fine">Extra $5 charge for coloured baby's breath.</p>
+            <a class="card-link" href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20order%20a%20Halo%20bouquet." target="_blank" rel="noopener">
+              Order on WhatsApp
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- 08 — Proposals -->
+        <article class="card reveal">
+          <div class="card-media">
+            <span class="card-index">08</span>
+            <img src="prop.jpg" alt="Romantic proposal setup with flowers" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="card-body">
+            <h3>Proposals</h3>
+            <p class="card-price card-price--quote">Ask for a quote</p>
+            <p>Turn your love story into a memory you'll cherish for a lifetime. Our proposal setups bring together luxury, romance, and beauty for that once-in-a-lifetime 'YES'.</p>
+            <a class="card-link" href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20discuss%20a%20proposal%20setup." target="_blank" rel="noopener">
+              Discuss your setup
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- 09 — Money bouquet (wide) -->
+        <article class="card card--wide card--w7 reveal">
+          <div class="card-media">
+            <span class="card-index">09</span>
+            <img src="mon.jpg" alt="Money bouquet arranged with one dollar bills" loading="lazy" decoding="async" width="800" height="450">
+          </div>
+          <div class="card-body">
+            <h3>Money bouquet</h3>
+            <p>Here's some inspiration and styles to execute your money bouquet orders. Please note that orders should be placed in advance, especially when we need to source split bills. Preferably, order at least 2 days before collection.</p>
+
+            <ul class="price-list">
+              <li><span>$200 Money Bouquet in $1's</span><span>$290</span></li>
+              <li><span>$200 in $1's and Roses</span><span>$315</span></li>
+              <li><span>$150 Money Bouquet in $1's</span><span>$225</span></li>
+              <li><span>$150 in $1's and Roses</span><span>$250</span></li>
+              <li><span>$100 Money Bouquet in $1's</span><span>$145</span></li>
+              <li><span>$100 in $1's and Roses</span><span>$170</span></li>
+              <li><span>$50 Money Bouquet in $1's</span><span>$80</span></li>
+              <li><span>$50 in $1's and Roses</span><span>$105</span></li>
+              <li><span>$30 Money Bouquet in $1's</span><span>$50</span></li>
+              <li><span>$30 in $1's and Roses</span><span>$65</span></li>
+            </ul>
+
+            <a class="card-link" href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20order%20a%20money%20bouquet." target="_blank" rel="noopener">
+              Order on WhatsApp
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- 10 — The Rosa Tower -->
+        <article class="card card--w5 reveal">
+          <div class="card-media">
+            <span class="card-index">10</span>
+            <img src="rosa.jpg" alt="The Rosa Tower — a tower-shaped arrangement of 100 roses" loading="lazy" decoding="async" width="800" height="640">
+          </div>
+          <div class="card-body">
+            <h3>The Rosa Tower</h3>
+            <p class="card-price">US$220.00</p>
+            <p>Introducing the Rosa Tower — an exclusive and unique way to deliver 100 roses, unlike any other bouquet.</p>
+            <p class="fine">WhatsApp, DM, or call us to place your order today.</p>
+            <a class="card-link" href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20order%20The%20Rosa%20Tower." target="_blank" rel="noopener">
+              Order on WhatsApp
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="note reveal">
+        Prices are in USD. Bridal bouquets and proposal setups are quoted individually.
+        Delivery and add-ons are confirmed on WhatsApp before you pay.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY (1.jpg – 6.jpg) ============ -->
+  <section class="section" id="gallery">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="eyebrow">Gallery</p>
+        <h2>In the shop</h2>
+        <p class="section-lede">
+          A few moments from Rosa Blanca. Tap any photo to view it larger.
+        </p>
+      </header>
+
+      <div class="gallery" data-stagger>
+        <button class="g-item reveal" type="button" data-gallery="0" aria-label="Open photo 1">
+          <img src="1.jpg" alt="Rosa Blanca — flowers and gifts (photo 1)" loading="lazy" decoding="async" width="800" height="1000">
+          <span class="g-cap">01</span>
+        </button>
+
+        <button class="g-item reveal" type="button" data-gallery="1" aria-label="Open photo 2">
+          <img src="2.jpg" alt="Rosa Blanca — flowers and gifts (photo 2)" loading="lazy" decoding="async" width="800" height="1000">
+          <span class="g-cap">02</span>
+        </button>
+
+        <button class="g-item reveal" type="button" data-gallery="2" aria-label="Open photo 3">
+          <img src="3.jpg" alt="Rosa Blanca — flowers and gifts (photo 3)" loading="lazy" decoding="async" width="800" height="1000">
+          <span class="g-cap">03</span>
+        </button>
+
+        <button class="g-item reveal" type="button" data-gallery="3" aria-label="Open photo 4">
+          <img src="4.jpg" alt="Rosa Blanca — flowers and gifts (photo 4)" loading="lazy" decoding="async" width="800" height="1000">
+          <span class="g-cap">04</span>
+        </button>
+
+        <button class="g-item reveal" type="button" data-gallery="4" aria-label="Open photo 5">
+          <img src="5.jpg" alt="Rosa Blanca — flowers and gifts (photo 5)" loading="lazy" decoding="async" width="800" height="1000">
+          <span class="g-cap">05</span>
+        </button>
+
+        <button class="g-item reveal" type="button" data-gallery="5" aria-label="Open photo 6">
+          <img src="6.jpg" alt="Rosa Blanca — flowers and gifts (photo 6)" loading="lazy" decoding="async" width="800" height="1000">
+          <span class="g-cap">06</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DIVIDER ============ -->
+  <div class="divider reveal" aria-hidden="true">
+    <span class="d-line"></span>
+    <svg class="d-flower" viewBox="0 0 200 200"><use href="#flower"/></svg>
+    <span class="d-line"></span>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section section--wash" id="about">
+    <div class="wrap about-grid">
+      <div class="about-media reveal">
+        <img src="2.jpg" alt="Flowers from Rosa Blanca in Suburbs, Bulawayo" loading="lazy" decoding="async" width="800" height="1000">
+      </div>
+
+      <div class="about-copy reveal">
+        <p class="eyebrow">About</p>
+        <h2>A florist and gift shop in the heart of Suburbs</h2>
+        <p>
+          Rosa Blanca is a florist and gift shop on Seventh Street in Suburbs, Bulawayo.
+          We arrange flowers for birthdays, weddings, anniversaries and farewells, and
+          pair them with gifts from the shop.
+        </p>
+        <p>
+          Orders can be collected in store, delivered within Zimbabwe, or sent
+          internationally. Message us on WhatsApp and we will talk through the colours,
+          the flowers and the timing.
+        </p>
+        <ul class="about-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg>
+            In-store shopping
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg>
+            In-store pickup
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg>
+            Online booking
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg>
+            Reservations
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REVIEWS ============ -->
+  <section class="section" id="reviews">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="eyebrow">Reviews</p>
+        <h2>What customers say</h2>
+      </header>
+
+      <div class="review-summary reveal">
+        <span class="review-score" data-count="5" data-decimals="1">5.0</span>
+        <span class="stars" aria-label="Rated 5 out of 5">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+        </span>
+        <span class="review-meta">from <span data-count="24" data-decimals="0">24</span> reviews</span>
+      </div>
+
+      <div class="reviews-grid" data-stagger>
+        <article class="review reveal">
+          <div class="review-top">
+            <span class="review-name">Rumbidzai Muzvarwandoga</span>
+            <span class="stars" aria-label="5 out of 5">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+            </span>
+          </div>
+          <p class="review-text">Made a last minute order and she made the prettiest boquet 😍 Good customer service. I wanted my flowers to be transported to Gweru and I received them on time</p>
+        </article>
+
+        <article class="review reveal">
+          <div class="review-top">
+            <span class="review-name">Byun Msimango</span>
+            <span class="stars" aria-label="5 out of 5">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+            </span>
+          </div>
+          <p class="review-text">I recently used Rosa Blanca to send Valentine’s Day roses from South Africa to my girlfriend in Zimbabwe, and I couldn’t be happier with the experience. Since this was my first time ordering flowers internationally, I was a bit anxious, but the process was incredibly seamless.
+
+I want to give a massive thank you to Mphoentle Dube, who handled my order with such professionalism and care. She was exceptionally helpful and made sure everything was perfect from start to finish. Her great service gave me complete peace of mind, and the flowers were stunning. If you need to send love across borders, I highly recommend asking for Mphoentle at Rosa Blanca!</p>
+        </article>
+
+        <article class="review reveal">
+          <div class="review-top">
+            <span class="review-name">Mthabisi Bhebhe</span>
+            <span class="stars" aria-label="5 out of 5">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+            </span>
+          </div>
+          <p class="review-text">t's the best place to get flowers for your partner and customer care is top notch</p>
+        </article>
+
+        <article class="review reveal">
+          <div class="review-top">
+            <span class="review-name">Joel Jani</span>
+            <span class="stars" aria-label="4 out of 5">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg class="empty" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+            </span>
+          </div>
+          <p class="review-text">I recently ordered flowers from Rosa Blanca and was pleased with the service. The communication was good, and the flowers themselves were stunning. However, they were delivered later than requested, which was a bit disappointing. Overall, I'd still recommend this florist to others, very good service</p>
+        </article>
+
+        <article class="review reveal">
+          <div class="review-top">
+            <span class="review-name">Sandytee Munyika</span>
+            <span class="stars" aria-label="5 out of 5">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+            </span>
+          </div>
+          <p class="review-text">I had the most beautiful birthday surprise thanks to Rosa Blanca!💐 The flowers were fresh, vibrant, and arranged so beautifully. The delivery was perfectly timed and it truly made my day extra special.I highly recommend them if you want to surprise someone or make a special occasion unforgettable. Thank you for making my birthday so memorable! 🌸🎉</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BOOKING ============ -->
+  <section class="section" id="book">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="eyebrow">Booking &amp; enquiries</p>
+        <h2>Tell us what you have in mind</h2>
+        <p class="section-lede">
+          Fill in the details below and the form will open WhatsApp with your message
+          ready to send. We will reply with a quote and confirm the arrangements.
+        </p>
+      </header>
+
+      <div class="booking-grid">
+        <form class="form reveal" id="bookingForm" novalidate>
+          <div class="field full">
+            <input type="text" id="f-name" name="name" placeholder=" " autocomplete="name" required>
+            <label for="f-name">Your name</label>
+            <span class="field-err" id="err-name" aria-live="polite"></span>
+          </div>
+
+          <div class="field">
+            <input type="tel" id="f-phone" name="phone" placeholder=" " autocomplete="tel" required>
+            <label for="f-phone">Phone number</label>
+            <span class="field-err" id="err-phone" aria-live="polite"></span>
+          </div>
+
+          <div class="field field--top">
+            <select id="f-service" name="service" required>
+              <option value="" selected disabled></option>
+              <option>Mixed bouquets</option>
+              <option>Bridal bouquets</option>
+              <option>Vases</option>
+              <option>Bordeaux Royale</option>
+              <option>Ramo Buchón</option>
+              <option>Joyful blooms</option>
+              <option>Halo bouquets</option>
+              <option>Proposals</option>
+              <option>Money bouquet</option>
+              <option>The Rosa Tower</option>
+              <option>Something else</option>
+            </select>
+            <label for="f-service">Service</label>
+            <span class="field-err" id="err-service" aria-live="polite"></span>
+          </div>
+
+          <div class="field field--top">
+            <input type="date" id="f-date" name="date">
+            <label for="f-date">Preferred date</label>
+          </div>
+
+          <div class="field field--top">
+            <input type="time" id="f-time" name="time">
+            <label for="f-time">Preferred time</label>
+          </div>
+
+          <div class="field full">
+            <textarea id="f-message" name="message" placeholder=" "></textarea>
+            <label for="f-message">Message — colours, budget, delivery address</label>
+          </div>
+
+          <div class="form-actions full">
+            <button class="btn btn-primary" type="submit">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.5 7.4L3.5 20.5l1.6-4.4a8.4 8.4 0 1 1 15.4-4.5Z"/></svg>
+              Send via WhatsApp
+            </button>
+            <span class="form-note">No payment is taken here. We confirm everything on WhatsApp first.</span>
+          </div>
+        </form>
+
+        <aside class="booking-aside reveal">
+          <h3>Prefer to talk?</h3>
+          <p>Call the shop or message us on WhatsApp and we will help you choose.</p>
+          <div class="aside-actions">
+            <a class="btn btn-primary"
+               href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20place%20an%20order."
+               target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.5 7.4L3.5 20.5l1.6-4.4a8.4 8.4 0 1 1 15.4-4.5Z"/></svg>
+              WhatsApp us
+            </a>
+            <a class="btn btn-ghost" href="tel:+263779159870">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a12 12 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A17 17 0 0 1 4.5 5.7 2 2 0 0 1 6.5 3.5Z"/></svg>
+              Call 077 915 9870
+            </a>
+          </div>
+          <div class="aside-detail">
+            <a href="mailto:rosablancazw@gmail.com">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>
+              rosablancazw@gmail.com
+            </a>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=7A%20Seventh%20Street%2C%20Suburbs%2C%20Bulawayo%2C%20Zimbabwe" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-5.4 7-11a7 7 0 1 0-14 0c0 5.6 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+              7A Seventh Street, Suburbs, Bulawayo
+            </a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOCATION & HOURS ============ -->
+  <section class="section" id="visit">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="eyebrow">Visit</p>
+        <h2>Find us in Suburbs</h2>
+      </header>
+
+      <div class="visit-grid">
+        <div class="reveal">
+          <div class="visit-block">
+            <p class="visit-label">Address</p>
+            <p class="visit-address">
+              7A Seventh Street<br>
+              Suburbs, Bulawayo<br>
+              Zimbabwe 0000
+            </p>
+            <a class="link-inline"
+               href="https://www.google.com/maps/dir/?api=1&destination=7A%20Seventh%20Street%2C%20Suburbs%2C%20Bulawayo%2C%20Zimbabwe"
+               target="_blank" rel="noopener">
+              Get directions
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+            </a>
+          </div>
+
+          <div class="visit-block">
+            <p class="visit-label">Opening hours</p>
+            <table class="hours-table">
+              <caption class="visually-hidden">Opening hours</caption>
+              <tbody>
+                <tr data-days="1,2,3,4,5">
+                  <th scope="row">Monday – Friday</th>
+                  <td>8AM – 5PM</td>
+                </tr>
+                <tr data-days="6">
+                  <th scope="row">Saturday</th>
+                  <td>9AM – 5PM</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="map-frame">
+            <iframe
+              title="Map showing Rosa Blanca at 7A Seventh Street, Suburbs, Bulawayo"
+              src="https://www.google.com/maps?q=7A%20Seventh%20Street%2C%20Suburbs%2C%20Bulawayo%2C%20Zimbabwe&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section--wash" id="contact">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Get in touch</h2>
+        <p class="section-lede">Call, message or drop us an email — whichever suits you.</p>
+      </header>
+
+      <div class="contact-grid" data-stagger>
+        <a class="contact-card reveal" href="tel:+263779159870">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a12 12 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A17 17 0 0 1 4.5 5.7 2 2 0 0 1 6.5 3.5Z"/></svg>
+          </span>
+          <span class="contact-text">
+            <span class="contact-key">Phone</span>
+            <span class="contact-val">077 915 9870</span>
+          </span>
+        </a>
+
+        <a class="contact-card reveal"
+           href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20ask%20about%20your%20flowers%20and%20gifts."
+           target="_blank" rel="noopener">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.5 7.4L3.5 20.5l1.6-4.4a8.4 8.4 0 1 1 15.4-4.5Z"/></svg>
+          </span>
+          <span class="contact-text">
+            <span class="contact-key">WhatsApp</span>
+            <span class="contact-val">Chat with us</span>
+          </span>
+        </a>
+
+        <a class="contact-card reveal" href="mailto:rosablancazw@gmail.com">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>
+          </span>
+          <span class="contact-text">
+            <span class="contact-key">Email</span>
+            <span class="contact-val">rosablancazw@gmail.com</span>
+          </span>
+        </a>
+
+        <a class="contact-card reveal" href="https://www.instagram.com/rosablanca_zw/?hl=en" target="_blank" rel="noopener">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r=".9" fill="currentColor" stroke="none"/></svg>
+          </span>
+          <span class="contact-text">
+            <span class="contact-key">Instagram</span>
+            <span class="contact-val">@rosablanca_zw</span>
+          </span>
+        </a>
+
+        <a class="contact-card reveal" href="https://www.facebook.com/p/Rosa-Blanca-ZW-61566713379864/" target="_blank" rel="noopener">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 21v-8h2.7l.4-3h-3.1V8.2c0-.9.2-1.5 1.5-1.5h1.7V4.1A22 22 0 0 0 15.3 4c-2.4 0-4 1.5-4 4.1V10H8.5v3h2.8v8Z"/></svg>
+          </span>
+          <span class="contact-text">
+            <span class="contact-key">Facebook</span>
+            <span class="contact-val">Rosa Blanca ZW</span>
+          </span>
+        </a>
+
+        <a class="contact-card reveal" href="https://www.tiktok.com/@rosablanca.zw" target="_blank" rel="noopener">
+          <span class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3.5v9.8a3.7 3.7 0 1 1-3-3.6"/><path d="M15 3.5a4.6 4.6 0 0 0 4.5 4.2"/></svg>
+          </span>
+          <span class="contact-text">
+            <span class="contact-key">TikTok</span>
+            <span class="contact-val">@rosablanca.zw</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <picture>
+      <source srcset="zela-badge-light.png" media="(prefers-color-scheme: dark)">
+      <img class="zela-badge" src="zela-badge-dark.png" alt="Built by Zela" width="160" height="50" decoding="async" loading="lazy">
+    </picture>
+    <p class="copyright">© 2026 Rosa Blanca. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ============ MOBILE STICKY BAR ============ -->
+<div class="mobile-bar" aria-label="Quick contact">
+  <a class="mb-wa"
+     href="https://wa.me/263779159870?text=Hello%20Rosa%20Blanca%2C%20I%27d%20like%20to%20place%20an%20order."
+     target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.5 7.4L3.5 20.5l1.6-4.4a8.4 8.4 0 1 1 15.4-4.5Z"/></svg>
+    WhatsApp
+  </a>
+  <a class="mb-call" href="tel:+263779159870">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a12 12 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A17 17 0 0 1 4.5 5.7 2 2 0 0 1 6.5 3.5Z"/></svg>
+    Call
+  </a>
+</div>
+
+<!-- ============ BACK TO TOP ============ -->
+<button class="to-top" id="toTop" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m6 11 6-6 6 6"/></svg>
+</button>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true">
+  <button class="lb-close" id="lbClose" type="button" aria-label="Close photo viewer">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+  </button>
+  <button class="lb-prev" id="lbPrev" type="button" aria-label="Previous photo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg>
+  </button>
+  <div class="lb-stage" id="lbStage"></div>
+  <button class="lb-next" id="lbNext" type="button" aria-label="Next photo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg>
+  </button>
+  <span class="lb-count" id="lbCount">1 / 6</span>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var WA_NUMBER = '263779159870';
+
+  /* ==========================================================
+     1. INTRO OVERLAY — spinning flowers, skippable, once/session
+     ========================================================== */
+  function runIntro() {
+    if (reduceMotion.matches) return false;
+    try { if (sessionStorage.getItem('rb-intro-seen') === '1') return false; } catch (e) {}
+
+    var overlay = document.createElement('div');
+    overlay.className = 'intro';
+    overlay.setAttribute('aria-hidden', 'true');
+    overlay.innerHTML =
+      '<div class="intro-stage">' +
+        '<span class="intro-ring r1"></span>' +
+        '<span class="intro-ring r2"></span>' +
+        '<span class="intro-ring r3"></span>' +
+        '<span class="intro-bloom"><svg viewBox="0 0 200 200"><use href="#flower"/></svg></span>' +
+        '<span class="intro-flower f1"><svg viewBox="0 0 200 200"><use href="#flower"/></svg></span>' +
+        '<span class="intro-flower f2"><svg viewBox="0 0 200 200"><use href="#flower"/></svg></span>' +
+        '<span class="intro-flower f3"><svg viewBox="0 0 200 200"><use href="#flower"/></svg></span>' +
+        '<span class="intro-flower f4"><svg viewBox="0 0 200 200"><use href="#flower"/></svg></span>' +
+        '<span class="intro-flower f5"><svg viewBox="0 0 200 200"><use href="#flower"/></svg></span>' +
+        '<div class="intro-inner">' +
+          '<span class="intro-name">Rosa Blanca</span>' +
+          '<span class="intro-sub">Florist &amp; Gift Shop · Bulawayo</span>' +
+          '<span class="intro-line"></span>' +
+        '</div>' +
+      '</div>' +
+      '<span class="intro-hint">Tap to skip</span>';
+
+    document.body.appendChild(overlay);
+
+    var finished = false;
+    var timer = setTimeout(finish, 1800);
+
+    function finish() {
+      if (finished) return;
+      finished = true;
+      clearTimeout(timer);
+
+      overlay.classList.add('is-out');
+      try { sessionStorage.setItem('rb-intro-seen', '1'); } catch (e) {}
+
+      window.removeEventListener('keydown', skip);
+      window.removeEventListener('touchstart', skip);
+      overlay.removeEventListener('click', skip);
+
+      heroReady();
+
+      setTimeout(function () {
+        if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
+      }, 1000);
+    }
+
+    function skip() { finish(); }
+
+    overlay.addEventListener('click', skip);
+    window.addEventListener('keydown', skip);
+    window.addEventListener('touchstart', skip, { passive: true });
+
+    return true;
+  }
+
+  /* ==========================================================
+     2. HERO ENTRANCE
+     ========================================================== */
+  function heroReady() {
+    var hero = document.getElementById('hero');
+    if (hero) hero.classList.add('is-ready');
+  }
+
+  function splitHeadline() {
+    var h1 = document.querySelector('.hero h1');
+    if (!h1) return;
+
+    var nodes = Array.prototype.slice.call(h1.childNodes);
+    var frag = document.createDocumentFragment();
+    var index = 0;
+
+    nodes.forEach(function (node) {
+      if (node.nodeType === 3) {
+        var words = node.textContent.trim().split(/\s+/).filter(Boolean);
+        words.forEach(function (word) {
+          var wrap = document.createElement('span');
+          wrap.className = 'w';
+          var inner = document.createElement('span');
+          inner.style.setProperty('--i', index++);
+          inner.textContent = word;
+          wrap.appendChild(inner);
+          frag.appendChild(wrap);
+          frag.appendChild(document.createTextNode(' '));
+        });
+      } else if (node.nodeType === 1) {
+        var words2 = node.textContent.trim().split(/\s+/).filter(Boolean);
+        words2.forEach(function (word) {
+          var wrap = document.createElement('span');
+          wrap.className = 'w';
+          var inner = document.createElement('span');
+          inner.style.setProperty('--i', index++);
+          var clone = node.cloneNode(false);
+          clone.textContent = word;
+          inner.appendChild(clone);
+          wrap.appendChild(inner);
+          frag.appendChild(wrap);
+          frag.appendChild(document.createTextNode(' '));
+        });
+      }
+    });
+
+    h1.innerHTML = '';
+    h1.appendChild(frag);
+  }
+
+  /* ==========================================================
+     3. HEADER, PROGRESS BAR, BACK TO TOP
+     ========================================================== */
+  function initScrollUI() {
+    var header = document.getElementById('siteHeader');
+    var bar = document.getElementById('progressBar');
+    var toTop = document.getElementById('toTop');
+    var ticking = false;
+
+    function update() {
+      var doc = document.documentElement;
+      var y = window.pageYOffset || doc.scrollTop || 0;
+      var max = (doc.scrollHeight - window.innerHeight) || 1;
+      var progress = Math.min(1, Math.max(0, y / max));
+
+      if (bar) bar.style.transform = 'scaleX(' + progress + ')';
+      if (header) header.classList.toggle('is-scrolled', y > 12);
+      if (toTop) toTop.classList.toggle('is-visible', y > 600);
+
+      ticking = false;
+    }
+
+    function onScroll() {
+      if (!ticking) {
+        ticking = true;
+        window.requestAnimationFrame(update);
+      }
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll, { passive: true });
+    update();
+
+    if (toTop) {
+      toTop.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: reduceMotion.matches ? 'auto' : 'smooth' });
+      });
+    }
+  }
+
+  /* ==========================================================
+     4. MOBILE MENU
+     ========================================================== */
+  function initMenu() {
+    var toggle = document.getElementById('menuToggle');
+    var menu = document.getElementById('mobileMenu');
+    if (!toggle || !menu) return;
+
+    function open() {
+      menu.classList.add('is-open');
+      menu.setAttribute('aria-hidden', 'false');
+      toggle.setAttribute('aria-expanded', 'true');
+      toggle.setAttribute('aria-label', 'Close menu');
+      document.body.classList.add('menu-open');
+    }
+
+    function close() {
+      menu.classList.remove('is-open');
+      menu.setAttribute('aria-hidden', 'true');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', 'Open menu');
+      document.body.classList.remove('menu-open');
+    }
+
+    toggle.addEventListener('click', function () {
+      if (menu.classList.contains('is-open')) { close(); } else { open(); }
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', close);
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menu.classList.contains('is-open')) {
+        close();
+        toggle.focus();
+      }
+    });
+
+    window.addEventListener('resize', function () {
+      if (window.innerWidth >= 900 && menu.classList.contains('is-open')) close();
+    });
+  }
+
+  /* ==========================================================
+     5. SCROLL REVEALS
+     ========================================================== */
+  function initReveals() {
+    var groups = document.querySelectorAll('[data-stagger]');
+    groups.forEach(function (group) {
+      Array.prototype.forEach.call(group.children, function (child, i) {
+        child.style.setProperty('--d', (i * 70) + 'ms');
+      });
+    });
+
+    var items = document.querySelectorAll('.reveal');
+
+    if (!('IntersectionObserver' in window) || reduceMotion.matches) {
+      items.forEach(function (el) { el.classList.add('in'); });
+      return;
+    }
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          var el = entry.target;
+          el.classList.add('in');
+          observer.unobserve(el);
+          setTimeout(function () { el.style.setProperty('--d', '0ms'); }, 1100);
+        }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
+
+    items.forEach(function (el) { observer.observe(el); });
+
+    setTimeout(function () {
+      items.forEach(function (el) { el.classList.add('in'); });
+    }, 4000);
+  }
+
+  /* ==========================================================
+     6. GENTLE CARD TILT (desktop, pointer-fine only)
+     ========================================================== */
+  function initTilt() {
+    if (reduceMotion.matches) return;
+    if (!window.matchMedia('(hover:hover) and (pointer:fine)').matches) return;
+
+    var cards = document.querySelectorAll('.card');
+    Array.prototype.forEach.call(cards, function (card) {
+      var raf = null;
+      var rx = 0, ry = 0;
+
+      card.addEventListener('pointermove', function (e) {
+        if (!card.classList.contains('in')) return;
+        var r = card.getBoundingClientRect();
+        var px = (e.clientX - r.left) / r.width - 0.5;
+        var py = (e.clientY - r.top) / r.height - 0.5;
+        rx = (-py * 4).toFixed(2);
+        ry = (px * 4).toFixed(2);
+
+        if (raf) return;
+        raf = window.requestAnimationFrame(function () {
+          card.style.transition = 'transform .2s cubic-bezier(.22,1,.36,1), box-shadow .55s cubic-bezier(.22,1,.36,1), border-color .55s cubic-bezier(.22,1,.36,1)';
+          card.style.transform = 'perspective(900px) translateY(-7px) rotateX(' + rx + 'deg) rotateY(' + ry + 'deg)';
+          raf = null;
+        });
+      });
+
+      card.addEventListener('pointerleave', function () {
+        card.style.transition = '';
+        card.style.transform = '';
+      });
+    });
+  }
+
+  /* ==========================================================
+     7. COUNT-UP FOR PROVIDED NUMBERS ONLY
+     ========================================================== */
+  function initCounters() {
+    var els = document.querySelectorAll('[data-count]');
+    if (!els.length) return;
+    if (reduceMotion.matches || !('IntersectionObserver' in window)) return;
+
+    function countUp(el) {
+      var target = parseFloat(el.getAttribute('data-count'));
+      var dec = parseInt(el.getAttribute('data-decimals') || '0', 10);
+      var duration = 1300;
+      var start = null;
+
+      function step(ts) {
+        if (!start) start = ts;
+        var p = Math.min(1, (ts - start) / duration);
+        var eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = (target * eased).toFixed(dec);
+        if (p < 1) {
+          window.requestAnimationFrame(step);
+        } else {
+          el.textContent = target.toFixed(dec);
+        }
+      }
+      window.requestAnimationFrame(step);
+    }
+
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          io.unobserve(entry.target);
+          countUp(entry.target);
+        }
+      });
+    }, { threshold: 0.6 });
+
+    els.forEach(function (el) { io.observe(el); });
+  }
+
+  /* ==========================================================
+     8. GALLERY LIGHTBOX
+     ========================================================== */
+  function initLightbox() {
+    var items = Array.prototype.slice.call(document.querySelectorAll('.g-item'));
+    var box = document.getElementById('lightbox');
+    var stage = document.getElementById('lbStage');
+    var count = document.getElementById('lbCount');
+    var btnClose = document.getElementById('lbClose');
+    var btnPrev = document.getElementById('lbPrev');
+    var btnNext = document.getElementById('lbNext');
+    if (!items.length || !box) return;
+
+    var current = 0;
+    var lastFocused = null;
+
+    function render(index) {
+      current = (index + items.length) % items.length;
+      var img = items[current].querySelector('img');
+      stage.innerHTML = '';
+      if (img) {
+        var clone = document.createElement('img');
+        clone.src = img.getAttribute('src');
+        clone.alt = img.getAttribute('alt') || '';
+        clone.width = 800;
+        clone.height = 1000;
+        stage.appendChild(clone);
+      }
+      if (count) count.textContent = (current + 1) + ' / ' + items.length;
+    }
+
+    function open(index) {
+      lastFocused = document.activeElement;
+      render(index);
+      box.classList.add('is-open');
+      box.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      if (btnClose) btnClose.focus();
+    }
+
+    function close() {
+      box.classList.remove('is-open');
+      box.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+      if (lastFocused && lastFocused.focus) lastFocused.focus();
+    }
+
+    items.forEach(function (item, i) {
+      item.addEventListener('click', function () { open(i); });
+    });
+
+    if (btnClose) btnClose.addEventListener('click', close);
+    if (btnPrev) btnPrev.addEventListener('click', function () { render(current - 1); });
+    if (btnNext) btnNext.addEventListener('click', function () { render(current + 1); });
+
+    box.addEventListener('click', function (e) {
+      if (e.target === box) close();
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (!box.classList.contains('is-open')) return;
+      if (e.key === 'Escape') close();
+      if (e.key === 'ArrowLeft') render(current - 1);
+      if (e.key === 'ArrowRight') render(current + 1);
+      if (e.key === 'Tab') {
+        var focusables = box.querySelectorAll('button');
+        if (!focusables.length) return;
+        var first = focusables[0];
+        var last = focusables[focusables.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault(); last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault(); first.focus();
+        }
+      }
+    });
+  }
+
+  /* ==========================================================
+     9. BOOKING FORM -> WHATSAPP
+     ========================================================== */
+  function initForm() {
+    var form = document.getElementById('bookingForm');
+    if (!form) return;
+
+    var fields = {
+      name: { el: document.getElementById('f-name'), err: document.getElementById('err-name') },
+      phone: { el: document.getElementById('f-phone'), err: document.getElementById('err-phone') },
+      service: { el: document.getElementById('f-service'), err: document.getElementById('err-service') }
+    };
+
+    var dateInput = document.getElementById('f-date');
+    if (dateInput) {
+      var today = new Date();
+      var iso = today.getFullYear() + '-' +
+                String(today.getMonth() + 1).padStart(2, '0') + '-' +
+                String(today.getDate()).padStart(2, '0');
+      dateInput.min = iso;
+    }
+
+    function setError(key, message) {
+      var f = fields[key];
+      if (!f || !f.el) return;
+      var wrapper = f.el.closest('.field');
+      if (wrapper) wrapper.classList.toggle('is-invalid', !!message);
+      if (f.err) f.err.textContent = message || '';
+      f.el.setAttribute('aria-invalid', message ? 'true' : 'false');
+    }
+
+    Object.keys(fields).forEach(function (key) {
+      var f = fields[key];
+      if (!f.el) return;
+      f.el.addEventListener('input', function () { setError(key, ''); });
+      f.el.addEventListener('change', function () { setError(key, ''); });
+    });
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var firstInvalid = null;
+
+      var name = fields.name.el ? fields.name.el.value.trim() : '';
+      var phone = fields.phone.el ? fields.phone.el.value.trim() : '';
+      var service = fields.service.el ? fields.service.el.value : '';
+
+      if (name.length < 2) {
+        setError('name', 'Please tell us your name.');
+        firstInvalid = firstInvalid || fields.name.el;
+      }
+      if (!/^[0-9+()\-\s]{7,}$/.test(phone)) {
+        setError('phone', 'Please enter a phone number we can reach you on.');
+        firstInvalid = firstInvalid || fields.phone.el;
+      }
+      if (!service) {
+        setError('service', 'Please choose a service.');
+        firstInvalid = firstInvalid || fields.service.el;
+      }
+
+      if (firstInvalid) {
+        firstInvalid.focus();
+        return;
+      }
+
+      var date = document.getElementById('f-date');
+      var time = document.getElementById('f-time');
+      var message = document.getElementById('f-message');
+
+      var lines = [
+        'Hello Rosa Blanca, I would like to place an order.',
+        '',
+        'Name: ' + name,
+        'Phone: ' + phone,
+        'Service: ' + service
+      ];
+      if (date && date.value) lines.push('Preferred date: ' + date.value);
+      if (time && time.value) lines.push('Preferred time: ' + time.value);
+      if (message && message.value.trim()) lines.push('Message: ' + message.value.trim());
+
+      var url = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(lines.join('\n'));
+      window.open(url, '_blank', 'noopener');
+    });
+  }
+
+  /* ==========================================================
+     10. HIGHLIGHT TODAY IN THE HOURS TABLE
+     ========================================================== */
+  function initHours() {
+    var rows = document.querySelectorAll('.hours-table tr[data-days]');
+    if (!rows.length) return;
+    var today = new Date().getDay();
+    rows.forEach(function (row) {
+      var days = (row.getAttribute('data-days') || '').split(',').map(Number);
+      if (days.indexOf(today) !== -1) row.classList.add('is-today');
+    });
+  }
+
+  /* ==========================================================
+     11. BOOT
+     ========================================================== */
+  function boot() {
+    splitHeadline();
+    initScrollUI();
+    initMenu();
+    initReveals();
+    initTilt();
+    initCounters();
+    initLightbox();
+    initForm();
+    initHours();
+
+    var introStarted = runIntro();
+    if (!introStarted) heroReady();
+
+    if (reduceMotion.addEventListener) {
+      reduceMotion.addEventListener('change', function (e) {
+        if (e.matches) {
+          document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
+          heroReady();
+        }
+      });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+})();
+</script>
+
+</body>
+</html>
