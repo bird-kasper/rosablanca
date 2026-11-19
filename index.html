@@ -28,6 +28,13 @@
 <link rel="icon" type="image/png" href="fav.png">
 <link rel="apple-touch-icon" href="fav.png">
 
+<!-- ============ HERO BANNER PRELOAD ============
+     Highest-priority fetch, declared before the stylesheet so the
+     browser starts downloading the banner before it has parsed CSS.
+     Tip: exporting banner.png as banner.webp and swapping both the
+     preload href and the <img> src below will cut its weight by ~70%. -->
+<link rel="preload" as="image" href="banner.png" fetchpriority="high">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap">
@@ -692,24 +699,37 @@ body.menu-open{overflow:hidden;}
   }
 }
 
+/* Hero background — a real <img> so the preload scanner finds it
+   immediately, with a warm solid colour behind it while it paints. */
 .hero-bg{
   position:absolute;
   inset:0;
   z-index:-2;
-  background:url('banner.png') center/cover no-repeat;
+  overflow:hidden;
+  background:var(--surface-2);
+}
+.hero-bg img{
+  position:relative;
+  z-index:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
   filter:grayscale(.55) contrast(1.03);
   transform:scale(1.04);
+  transform-origin:center;
   will-change:transform;
 }
 .hero-bg::after{
   content:"";
   position:absolute;
   inset:0;
+  z-index:1;
   background:var(--hero-scrim);
-  z-index:-1;
+  pointer-events:none;
 }
 @media (prefers-reduced-motion: no-preference){
-  .hero-bg{animation:heroZoom 26s ease-in-out infinite alternate;}
+  .hero-bg img{animation:heroZoom 26s ease-in-out infinite alternate;}
 }
 @keyframes heroZoom{
   from{transform:scale(1.04);}
@@ -1318,7 +1338,6 @@ body.menu-open{overflow:hidden;}
              border-color .5s var(--ease), background-color .5s var(--ease);
 }
 
-/* Oversized quotation mark */
 .review::before{
   content:"\201C";
   position:absolute;
@@ -1333,7 +1352,6 @@ body.menu-open{overflow:hidden;}
   transition:transform .7s var(--ease), opacity .7s var(--ease);
 }
 
-/* Rose hairline along the top */
 .review::after{
   content:"";
   position:absolute;
@@ -1392,7 +1410,6 @@ body.menu-open{overflow:hidden;}
   white-space:pre-line;
 }
 
-/* The long review — 2× the space, larger type */
 .review--wide{
   padding:36px 34px 32px;
   background:linear-gradient(155deg, var(--rose-wash), var(--surface) 62%);
@@ -1808,7 +1825,7 @@ body.menu-open{overflow:hidden;}
   .js .hero .trust{opacity:1 !important;transform:none !important;}
   .w > span{transform:none !important;opacity:1 !important;}
   .marquee-track{animation:none !important;}
-  .hero-bg{animation:none !important;}
+  .hero-bg img{animation:none !important;}
   .hero-mark,.d-flower{animation:none !important;}
   .scroll-cue .line::after{animation:none !important;top:0;}
 }
@@ -1913,7 +1930,9 @@ body.menu-open{overflow:hidden;}
 
   <!-- ============ HERO ============ -->
   <section class="hero" id="hero">
-    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-bg" aria-hidden="true">
+      <img src="banner.png" alt="" width="1920" height="1080" fetchpriority="high" decoding="async">
+    </div>
 
     <div class="hero-mark" aria-hidden="true">
       <svg viewBox="0 0 200 200"><use href="#flower"/></svg>
